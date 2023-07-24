@@ -9,11 +9,14 @@ public class InnerClassTwo {
 
 }
 class Veh{
-	String Brand = "Toyota";
+	String Type;
 	int Price = 30000;
 	
 	int price() {
 		return this.Price;
+	}
+	class Toyota{
+		String
 	}
 	
 }
