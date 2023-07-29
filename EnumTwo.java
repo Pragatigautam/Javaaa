@@ -23,6 +23,7 @@ class Food{
 			System.out.println("Your burger is Extra spicy");
 			break;
 		}
+		//no need of default because the value will only come from BurgerType???!!!
 	}
 }
 

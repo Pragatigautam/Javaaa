@@ -11,11 +11,28 @@ public class Singleton01 {
 	}
 
 }
+
+
+
+
+//SINGLETON IS IMPORTANT FOR INTERVIEW
+
+//IT IS USED WHEN YOU WANT TO ESTABLISH A CONNECTION BETWEEN DATABASE
+
+//YOU CANNOT CREATE MULTIPLE CONNECTION TO THE DATABASE BECAUSE IT WILL BREAK DATABASE
+//THAT'S WHY IT'S SINGLE TIME THING
+//THAT'S WHY WE CREATE ONLY ONE REFERENCE VERIABLE
+
+
+
+
+
 class Database{
 	//properties with object
+	//Static is used to call something on the class level
 	private static Database DB;
 	
-	//default construction (not needed)
+	//default construction (not needed here but still i created to understand)
 	private Database() {
 		
 	}
