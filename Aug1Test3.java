@@ -4,7 +4,7 @@ enum FamHeight{
 	
 }
 
-public class ENumPrac1 {
+public class Aug1Test3 {
 
 	public static void main(String[] args) {
 		

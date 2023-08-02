@@ -6,14 +6,8 @@ public class Singleton01 {
 		Database obj;
 		obj=Database.getinstance();
 		obj.getconnect();
-		
-
 	}
-
 }
-
-
-
 
 //SINGLETON IS IMPORTANT FOR INTERVIEW
 
@@ -42,8 +36,7 @@ class Database{
 			DB=new Database();
 		}
 		return DB;
-		
-		
+			
 	}
 	
 	//without return type doesn't work without (with return type)
