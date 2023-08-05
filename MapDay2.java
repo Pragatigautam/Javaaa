@@ -1,6 +1,7 @@
 package two;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class MapDay2 {
@@ -50,6 +51,15 @@ public class MapDay2 {
 			System.out.println(Vehicle.get(a));
 		}
 		
+		//Iterator
+		 // Using iterator to loop through the Vehicle HashMap
+        Iterator<Map.Entry<String, String>> iterator = Vehicle.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<String, String> entry = iterator.next();
+            String key = entry.getKey();
+            String value = entry.getValue();
+            System.out.println(key + ": " + value);
+        }
 		
 		
 		
