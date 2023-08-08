@@ -41,15 +41,15 @@ public class HashMapDay1 {
 		
 		// looping through HashMap
 		
-		System.out.println(students.values());
-		System.out.println(students.keySet());
-		
-		for (int i=0; i<=students.size(); i++) {
-			String Buffer=students.get(i);
-			System.out.println("Hello "+ students.get(i));
-			
-	
-		}
+//		System.out.println(students.values());
+//		System.out.println(students.keySet());
+//		
+//		for (int i=0; i<=students.size(); i++) {
+//			String Buffer=students.get(i);
+//			System.out.println("Hello "+ students.get(i));
+//			
+//	
+//		}
 		
 		// loop over it using above method 
 		// print all keys and their values 

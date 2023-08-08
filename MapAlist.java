@@ -12,7 +12,8 @@ public class MapAlist {
 				new Employee(3, "Prajwol Gautam", 1000000000)
 		};
 		 
-		List<Employee> emplist = Arrays.asList(employees);
+		//to conver employee array as a list called emplist (Employee is data type from class Employee)
+		List<Employee> emplist = Arrays.asList(employees); 
 		
 		//for each
 		emplist.stream().forEach(emp -> emp.incrementSalary(10));
