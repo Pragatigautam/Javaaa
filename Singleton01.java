@@ -3,6 +3,8 @@ package two;
 public class Singleton01 {
 
 	public static void main(String[] args) {
+		
+		//obj is reference variable like(String name;)
 		Database obj;
 		obj=Database.getinstance();
 		obj.getconnect();
@@ -24,16 +26,17 @@ public class Singleton01 {
 class Database{
 	//properties with object
 	//Static is used to call something on the class level
+	//creating instance of Database class with type Database (not string or int)
 	private static Database DB;
 	
-	//default construction (not needed here but still i created to understand)
+	//private construction (so noone can create object)
 	private Database() {
 		
 	}
 	//method with return type
 	public static Database getinstance() {
 		if(DB==null) {
-			DB=new Database();
+			DB=new Database(); //in this line object (DB) for Database class is created. new Database
 		}
 		return DB;
 			

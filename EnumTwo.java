@@ -1,10 +1,28 @@
 package two;
-enum BurgerType{
+
+
+enum Type{
 	Normal, Spicy, MediumSpicy, ExtraSpicy
 }
+
+
+public class EnumTwo {
+
+	public static void main(String[] args) {
+		Food Bg = new Food(Type.ExtraSpicy);
+		Bg.ConfirmMessage();
+		
+
+	}
+
+}
+
+
 class Food{
-	BurgerType SpiceAmount;
-	public Food(BurgerType SPA) {
+	Type SpiceAmount;
+	
+	//constructor
+	public Food(Type SPA) {
 		this.SpiceAmount = SPA;
 	}
 	
@@ -25,15 +43,4 @@ class Food{
 		}
 		//no need of default because the value will only come from BurgerType???!!!
 	}
-}
-
-public class EnumTwo {
-
-	public static void main(String[] args) {
-		Food Bg = new Food(BurgerType.ExtraSpicy);
-		Bg.ConfirmMessage();
-		
-
-	}
-
 }
